@@ -1,0 +1,45 @@
+#
+#   Client
+#
+/client/node_modules
+/client/.pnp
+/client.pnp.js
+# testing
+/client/coverage
+# next.js
+/client/.next/
+/client/out/
+# production
+/client/build
+# misc
+/client/.DS_Store
+/client/*.pem
+# debug
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+/client/.pnpm-debug.log*
+# local env files
+/client/.env*.local
+# vercel
+/client/.vercel
+# typescript
+/client/*.tsbuildinfo
+/client/next-env.d.ts
+
+#
+#   Smart_contract
+#
+/smart_contract/node_modules
+/smart_contract/.env
+/smart_contract/coverage
+/smart_contract/coverage.json
+/smart_contract/typechain
+#Hardhat files
+/smart_contract/cache
+/smart_contract/artifacts
+
+#
+#   Studio
+#
+/studio/node_modules/
