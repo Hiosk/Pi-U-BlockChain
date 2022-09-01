@@ -5,6 +5,7 @@ import { RiFileGifLine, RiBarChartHorizontalFill } from 'react-icons/ri'
 import { IoMdCalendar } from 'react-icons/io'
 import { MdOutlineLocationOn } from 'react-icons/md'
 import { client } from '../../lib/client'
+import Editor from '../Editor'
 
 const style = {
   wrapper: `px-4 flex flex-row border-b border-[#38444d] pb-4`,
@@ -75,12 +76,7 @@ function TweetBox() {
       </div>
       <div className={style.tweetBoxRight}>
         <form>
-          <textarea
-            onChange={e => setTweetMessage(e.target.value)}
-            value={tweetMessage}
-            placeholder="What's happening?"
-            className={style.inputField}
-          />
+          <Editor />
           <div className={style.formLowerContainer}>
             <div className={style.iconsContainer}>
               <BsCardImage className={style.icon} />
